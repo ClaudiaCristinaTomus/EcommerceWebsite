@@ -15,12 +15,14 @@ const ProductCard = ({product}) => {
         </div>
         
         <div className='right'>
-            <p>{product.name}</p>
-            <h3>{product.description}</h3>
-            <p>{product.paragraph}</p>
+            <p className='rightElement'>{product.name}</p>
+            <h3 className='rightElement'>{product.description}</h3>
+            <p className='rightElement'>{product.paragraph}</p>
+            <div className='price'>
             <p>{product.price}</p>
             <p>{product.reducer}</p>
-            <p>{product.oldprice}</p>
+            </div>
+            <p className='rightElement'>{product.oldprice}</p>
             <button className='ProductCard_button'>Add to chart</button>
         </div>
 

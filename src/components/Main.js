@@ -5,7 +5,7 @@ import ProductCard from './ProductCard';
 
 const Main = () => {
   return (
-    <div>
+    <div className=''>
         {products.map((product)=>(<ProductCard key={product.id} product={product}/>))}
     </div>
   )
