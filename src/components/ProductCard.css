@@ -11,28 +11,29 @@
 
 .left{
    
-   max-width: 380px;
-   max-height:460px;
+   max-width: 500px;
+   max-height:600px;
 }
 
 
 
 
 .productCard_img{
+    border-radius: 10px;
     padding:0px 5px;
-    width:320px;
-    height:320px;
+    width:403px;
+    height:360px;
 }
 
 .productCard_imgSmall{
-   
-    padding:0px 5px;
-    width:80px;
-    height:80px;
+    border-radius: 15px;
+    padding:10px 5px;
+    width:100px;
+    height:100px;
 }
 
 .right{
-    max-width: 600px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-content: space-around;

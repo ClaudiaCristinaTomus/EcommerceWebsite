@@ -1,7 +1,6 @@
 import React from 'react'
 import './ProductCard.css'
 
-
 const ProductCard = ({product}) => {
   return (
     <div className='productCard_wrapper'>
@@ -11,7 +10,6 @@ const ProductCard = ({product}) => {
             <img className='productCard_imgSmall' src={product.image3} alt=''/>
             <img className='productCard_imgSmall' src={product.image4} alt=''/>
             <img className='productCard_imgSmall' src={product.image5} alt=''/>
-
         </div>
         
         <div className='right'>
