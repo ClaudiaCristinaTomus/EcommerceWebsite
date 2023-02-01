@@ -1,7 +1,12 @@
 import React from 'react'
 import './ProductCard.css'
+import CartContext from '../context/cart/CartContext';
+import { useContext } from 'react';
 
 const ProductCard = ({product}) => {
+
+    const{addToCart}=useContext(CartContext)
+    
   return (
     <div className='productCard_wrapper'>
         <div className='left'>
